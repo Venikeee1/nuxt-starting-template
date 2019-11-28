@@ -1,0 +1,22 @@
+# editorconfig.org
+root = true
+
+[*]
+indent_size = 2
+indent_style = space
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+# Makefiles must have tabs
+[Makefile]
+indent_style = tab
+
+# YAML files use 2 spaces
+[*.{yml,yaml,feature}]
+indent_style = space
+indent_size = 2
